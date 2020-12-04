@@ -1,0 +1,6 @@
+framework module Pods_ins_clone {
+  umbrella header "Pods-ins-clone-umbrella.h"
+
+  export *
+  module * { export * }
+}
