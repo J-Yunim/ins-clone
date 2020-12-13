@@ -32,6 +32,7 @@
 		2369245A2578E26D0001C1EC /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236924592578E26D0001C1EC /* AuthManager.swift */; };
 		2369245D2578E2AC0001C1EC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2369245C2578E2AC0001C1EC /* StorageManager.swift */; };
 		23692474257A5F3E0001C1EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23692473257A5F3E0001C1EC /* Extensions.swift */; };
+		236924862581CACC0001C1EC /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236924852581CACB0001C1EC /* IGFeedPostTableViewCell.swift */; };
 		37A766C0727DFC584E978FC7 /* Pods_ins_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB838F5CD11F0461BC9F7532 /* Pods_ins_clone.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		236924592578E26D0001C1EC /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		2369245C2578E2AC0001C1EC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		23692473257A5F3E0001C1EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		236924852581CACB0001C1EC /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		838AE35AC78D3638DD13579E /* Pods-ins-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ins-clone.debug.xcconfig"; path = "Target Support Files/Pods-ins-clone/Pods-ins-clone.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A9D59B1E95D437B73B7302 /* Pods-ins-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ins-clone.release.xcconfig"; path = "Target Support Files/Pods-ins-clone/Pods-ins-clone.release.xcconfig"; sourceTree = "<group>"; };
 		CB838F5CD11F0461BC9F7532 /* Pods_ins_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ins_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 		23692406256F77960001C1EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				236924842581CA9C0001C1EC /* Cells */,
 				236923F8256F77360001C1EC /* Assets.xcassets */,
 				23692408256F77BF0001C1EC /* Storyboards */,
 			);
@@ -201,6 +204,14 @@
 				23692436256F798D0001C1EC /* PublishPostViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		236924842581CA9C0001C1EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				236924852581CACB0001C1EC /* IGFeedPostTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3B218DF3319AC5A3744C1E0B /* Pods */ = {
@@ -346,6 +357,7 @@
 				23692422256F79080001C1EC /* PostViewController.swift in Sources */,
 				236924572578E1BD0001C1EC /* DatabaseManager.swift in Sources */,
 				236923F4256F77330001C1EC /* HomeViewController.swift in Sources */,
+				236924862581CACC0001C1EC /* IGFeedPostTableViewCell.swift in Sources */,
 				23692431256F79600001C1EC /* SearchResultViewController.swift in Sources */,
 				2369241B256F78E40001C1EC /* LoginViewController.swift in Sources */,
 				23692474257A5F3E0001C1EC /* Extensions.swift in Sources */,
